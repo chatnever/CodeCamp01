@@ -34,7 +34,7 @@ class NonDuplicateArray: ConsoleScreen {
     
     func removeDuplicate() {
         var rawArr = [1, 2, 3, 2, 4, 5, 6, 5, 5, 3, 7]
-        var fixArr = rawArr.uniq(rawArr)
+        let fixArr = rawArr.uniq(rawArr)
         writeln("\(fixArr)")
     }
 

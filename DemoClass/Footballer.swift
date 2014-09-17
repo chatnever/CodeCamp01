@@ -31,8 +31,7 @@ class Footballer: ConsoleScreen {
         var DF = ["Terry", "Ivanovic", "Gary Cahill", "Fellipe Luis", "César Azpilicueta"]
         
         let GK1 = GK.randomItem()
-        let GK2 = GK.randomItem()
-        writeln("GKs are: \(GK1), \(GK2)")
+        writeln("GK is: \(GK1)")
         
         let MF1 = MF.randomItem()
         let MF2 = MF.randomItem()
